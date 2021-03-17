@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flyingDutchman</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header">
+    <h class="title">Кто вы из Летучего Голландца?</h>
+</div>
+<form name="quiz" action="javascript:check();" class="quizform">
+
+    <div class="quizsection">
+        <h2>Вопрос №1 Как вы относитесь к длинной бороде?</h2>
+
+        <div class="answer">
+            <input name="q1" value="value1" type="radio"/> Резко положительно
+        </div>
+
+        <div class="answer">
+            <input name="q1" value="value2" type="radio"/> Длинную точно не хочу
+        </div>
+
+        <div class="answer">
+            <input name="q1" value="value0" type="radio"/> Не люблю я ваши бороды
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №2 А вы сердечко не теряли?</h2>
+
+        <div class="answer">
+            <input name="q2" value="value1" type="radio"/> Терял
+        </div>
+
+        <div class="answer">
+            <input name="q2" value="value2" type="radio"/> Да, совсем недавно
+        </div>
+
+        <div class="answer">
+            <input name="q2" value="value0" type="radio"/> Нет, конечно
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №3 Что произойдет, встань вы на сушу?</h2>
+
+        <div class="answer">
+            <input name="q3" value="value1" type="radio"/> Что-то страшное
+        </div>
+
+        <div class="answer">
+            <input name="q3" value="value0" type="radio"/> Да вроде норм все
+        </div>
+    </div>
+
+
+    <div class="quizsection">
+        <h2>Вопрос №4 У вас есть щупальца?</h2>
+
+        <div class="answer">
+            <input name="q4" value="value6" type="radio"/> Да, огромные
+        </div>
+
+        <div class="answer">
+            <input name="q4" value="value1" type="radio"/> Да, коротенькие
+        </div>
+
+        <div class="answer">
+            <input name="q4" value="value0" type="radio"/> Фууу, нет
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №5 Есть ли на корабле ваши родственники?</h2>
+
+        <div class="answer">
+            <input name="q5" value="value3" type="radio"/> Да, сынок
+        </div>
+
+        <div class="answer">
+            <input name="q5" value="value2" type="radio"/> Да, батька
+        </div>
+
+        <div class="answer">
+            <input name="q5" value="value0" type="radio"/> Вроде нет
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №6 Как бы вы оценили Элизабет Суон?</h2>
+
+        <div class="answer">
+            <input name="q6" value="value2" type="radio"/> Отличная жена
+        </div>
+
+        <div class="answer">
+            <input name="q6" value="value3" type="radio"/> Хорошая невестка
+        </div>
+
+        <div class="answer">
+            <input name="q6" value="value0" type="radio"/> Ниче так
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №7 У вас есть способность парализовывать?</h2>
+
+        <div class="answer">
+            <input name="q7" value="value4" type="radio"/> Дааа
+        </div>
+
+        <div class="answer">
+            <input name="q7" value="value0" type="radio"/> Нееет
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №8 По вашему Мурены красивы?</h2>
+
+        <div class="answer">
+            <input name="q8" value="value4" type="radio"/> Дааа
+        </div>
+
+        <div class="answer">
+            <input name="q8" value="value0" type="radio"/> Нееет
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №9 Вы главный помощник на борту?</h2>
+
+        <div class="answer">
+            <input name="q9" value="value5" type="radio"/> Дааа
+        </div>
+
+        <div class="answer">
+            <input name="q9" value="value1" type="radio"/> Нет, я круче
+        </div>
+
+        <div class="answer">
+            <input name="q9" value="value0" type="radio"/> Нет, я не настолько крут
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №10 Вы должны находиться на службе не менее 100 лет?</h2>
+
+        <div class="answer">
+            <input name="q10" value="value5" type="radio"/> Дааа(
+        </div>
+
+        <div class="answer">
+            <input name="q10" value="value2" type="radio"/> Целую вечность
+        </div>
+
+        <div class="answer">
+            <input name="q10" value="value0" type="radio"/> Неа, я чуть свободнее)
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №11 Как вам на вкус Джек Воробей?</h2>
+
+        <div class="answer">
+            <input name="q11" value="value6" type="radio"/> Ну такооое
+        </div>
+
+        <div class="answer">
+            <input name="q11" value="value0" type="radio"/> Что? Фуу
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №12 Скажите прямо, вы моллюск?</h2>
+
+        <div class="answer">
+            <input name="q12" value="value6" type="radio"/> Если честно, хз
+        </div>
+
+        <div class="answer">
+            <input name="q12" value="value0" type="radio"/> Нет, конечно, лол
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №13 Вы бы хотели управлять рулевыми?</h2>
+
+        <div class="answer">
+            <input name="q13" value="value7" type="radio"/> Я этим и занимаюсь
+        </div>
+
+        <div class="answer">
+            <input name="q13" value="value0" type="radio"/> Вообще неинтересно
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №14 У вас есть внутренние органы?</h2>
+
+        <div class="answer">
+            <input name="q14" value="value7" type="radio"/> Не знаю, не видел
+        </div>
+
+        <div class="answer">
+            <input name="q14" value="value0" type="radio"/> Естественно
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №15 А вы уже часть корабля?</h2>
+
+        <div class="answer">
+            <input name="q15" value="value8" type="radio"/> Часть команды - часть корабля...
+        </div>
+
+        <div class="answer">
+            <input name="q15" value="value0" type="radio"/> Не, я пока норм
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №16 Считаете ли вы себя похожим на Грута?</h2>
+
+        <div class="answer">
+            <input name="q16" value="value8" type="radio"/> Часть команды - часть корабля...
+        </div>
+
+        <div class="answer">
+            <input name="q16" value="value0" type="radio"/> Все мы чем-то на него похожи
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №17 Симпатизируете ли вы рыбе Фугу?</h2>
+
+        <div class="answer">
+            <input name="q17" value="value9" type="radio"/> Они крутые
+        </div>
+
+        <div class="answer">
+            <input name="q17" value="value1" type="radio"/> Прям бесит
+        </div>
+
+        <div class="answer">
+            <input name="q17" value="value0" type="radio"/> Какая разница?
+        </div>
+    </div>
+
+    <div class="quizsection">
+        <h2>Вопрос №18 Как насчет иметь легкое прямо у себя в голове?</h2>
+
+        <div class="answer">
+            <input name="q18" value="value9" type="radio"/> Реально удобно
+        </div>
+
+        <div class="answer">
+            <input name="q18" value="value7" type="radio"/> Мне бы иметь легкое...
+        </div>
+
+        <div class="answer">
+            <input name="q18" value="value0" type="radio"/> Мне итак хорошо
+        </div>
+    </div>
+
+    </div class="bottom">
+
+    <input class="bottom" value="Отправить" type="submit"/> <input class="bottom" value="Удалить" type="reset"/>
+
+
+</form>
+</section>
+
+<script type="text/javascript">
+    var result;
+
+    function check() {
+        var question = 1;
+        var value0 = 0;
+        var value1 = 0;
+        var value2 = 0;
+        var value3 = 0;
+        var value4 = 0;
+        var value5 = 0;
+        var value6 = 0;
+        var value7 = 0;
+        var value8 = 0;
+        var value9 = 0;
+        result = '';
+        var choice = '';
+        for (question = 1; question <= 18; question++) {
+            var q = document.forms['quiz'].elements['q' + question];
+            for (var i = 0; i < q.length; i++) {
+                if (q[i].checked) {
+                    choice = q[i].value;
+                }
+            }
+            if (choice === 'value0') {
+                value0++;
+            }
+            if (choice === 'value1') {
+                value1++;
+            }
+            if (choice === 'value2') {
+                value2++;
+            }
+            if (choice === 'value3') {
+                value3++;
+            }
+            if (choice === 'value4') {
+                value4++;
+            }
+            if (choice === 'value5') {
+                value5++;
+            }
+            if (choice === 'value6') {
+                value6++;
+            }
+            if (choice === 'value7') {
+                value7++;
+            }
+            if (choice === 'value8') {
+                value8++;
+            }
+            if (choice === 'value9') {
+                value9++;
+            }
+        }
+        var maximum = Math.max(value1, value2, value3, value4, value5, value6, value7, value8, value9);
+        result = 'Jack';
+        if (maximum === value1) result = 'Johns';
+        else if (maximum === value2) result = 'UTerner';
+        else if (maximum === value3) result = 'BTerner';
+        else if (maximum === value4) result = 'Moree';
+        else if (maximum === value5) result = 'Muccuse';
+        else if (maximum === value6) result = 'Kraken';
+        else if (maximum === value7) result = 'Kvartirmeister';
+        else if (maximum === value8) result = 'Vivern';
+        else if (maximum === value9) result = 'Koleniko';
+
+        document.location.href = 'htmlDir/' + result + '.html';
+        console.log(value9);
+    }
+</script>
+
+</body>
+<footer>
+    Проект подготовили: Печерский Илья, Арефьева София, Дюдин Герман
+</footer>
