@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+    background-size: cover;
+    max-height: 1500px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: darkslategrey;
+    background-size: cover;
+    position: center;
+    margin-top: 50px;
+    height: 40px;
+    font-size: 3ch;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    min-height: 10vh;
+    background-image: linear-gradient(palegreen, white);
+    background-position: center center;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 5ch;
+    font-family: "Montserrat", sans-serif;
+    color: darkslategrey;
+}
+
+.quizsection {
+    font-size: 2ch;
+    font-family: "Montserrat", sans-serif;
+    color: darkslategrey;
+    margin-left: 10px;
+}
+
+.bottom {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 3ch;
+    width: 6em;
+}
+
+figure {
+    display: block;
+    text-align: center;
+}
+
